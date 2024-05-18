@@ -1,0 +1,52 @@
+#root{
+    
+        background-image: url('/Portada.jpg');
+        background-size: 'cover';
+        /* background-position: 'center'; */
+        /* background-repeat: no-repeat; */
+        
+    
+}
+body {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #b8bec3;
+    
+}
+
+input{
+    font-size: 25px;
+}
+
+button{
+    font-size: 28px;
+    align-content: center;
+}
+
+form #login{
+    padding: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color:#989da1 ;
+}
+
+
+.favourite-btn{
+    width: 30px;
+    height: 30px;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 15px;
+}
+
+.selected-favourite{
+    background-color: #e2d160;
+}
